@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registratin Form</title>
+    <link rel="stylesheet" href="race.css">
+</head>
+<body>
+    <h1>Registration portal</h1>
+    <form action="www.google.com">
+        <p>
+            <label for="First">First name</label>
+            <input type="text" name="user" id="First" placeholder="First name" required >
+            <label for="Last">Last name</label>
+            <input type="text" name="userl" id="Last" placeholder="Last name" required >
+        </p>
+        <br>
+            <h2>Select Race</h2>
+        <br>
+            <input type="radio" name="race" id="1" value="R1">
+            <label for="1">relay</label>
+        <br>
+            <input type="radio" name="race" id="2" value="R2">
+            <label for="2">short run</label>
+        <br>
+            <input type="radio" name="race" id="3" value="R3">
+            <label for="3">long run</label>
+        <br>
+        <p>
+            <label for="email">Enter email:</label>
+            <input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            <label for="pass">Enter password:</label>
+            <input type="password" name="pass" id="pass" required>
+        </p>
+        <p>
+            <label for="age">Enter age:</label>
+            <!--<input type="number" name="number" id="age" min="6" max="18"required>-->
+            <select name="age" id="age">
+                <option value="1">6</option>
+                <option value="2">7</option>
+                <option value="3">8</option>
+                <option value="4">9</option>
+                <option value="5">10</option>
+                <option value="6">11</option>
+                <option value="7">12</option>
+                <option value="8">13</option>
+                <option value="9">14</option>
+                <option value="10">15</option>
+                <option value="11">16</option>
+                <option value="12">17</option>
+                <option value="13">18</option>
+            </select>
+        </p>
+        <p>
+            <button>register</button>
+        </p>
+    </form>
+</body>
+</html>
